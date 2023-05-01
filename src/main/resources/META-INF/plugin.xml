@@ -10,6 +10,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow factoryClass="com.github.kakiageseiro.stringhighlighter.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <fileEditorManagerListener implementation="com.github.kakiageseiro.stringhighlighter.FileOpenEventListener" />
     </extensions>
 
     <applicationListeners>
